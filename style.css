@@ -1,0 +1,42 @@
+/* common styles */
+.my-own {
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+.bg-own {
+  background-color: rgba(74, 195, 255, 0.204);
+}
+/* responsive headings for mobile and tablets */
+@media (max-width: 768px) {
+  .carousel-heads {
+    padding: calc(1rem+1vh);
+    font-size: 0.7rem;
+  }
+  .carousel-paragragraph {
+    padding: calc(1rem+0.9vh);
+    font-size: 0.5rem;
+  }
+  .carousel-button {
+    font-size: 0.8rem;
+    width: calc(0.5rem+0.5vw);
+    padding: 0px 5px;
+  }
+  .explore-section-flex {
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) {
+  .carousel-heads {
+    padding: calc(1rem+1vh);
+    font-size: 1.3rem;
+  }
+  .carousel-paragragraph {
+    padding: calc(1rem+0.9vh);
+    font-size: 0.7rem;
+  }
+  .carousel-button {
+    font-size: 0.8rem;
+    width: calc(0.5rem+0.5vw);
+    padding: 0px 5px;
+  }
+}
